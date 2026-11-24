@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Mahalanobis 2D",
+    "n_components": 2,
+    "degree": 1,
+    "var_exp": 21.174182706687358,
+    "exec_time_ms": 0.06859994027763605,
+    "cm_line": "TP=0, FP=17, TN=358, FN=10",
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0,
+    "roc_auc": 0.5157333333333334
+  },
+  {
+    "name": "Mahalanobis 10D",
+    "n_components": 10,
+    "degree": 1,
+    "var_exp": 64.64174705935761,
+    "exec_time_ms": 0.10210007894784212,
+    "cm_line": "TP=5, FP=16, TN=359, FN=5",
+    "precision": 0.23809523809523808,
+    "recall": 0.5,
+    "f1_score": 0.3225806451612903,
+    "roc_auc": 0.7896
+  },
+  {
+    "name": "CD 2D (Deg 2)",
+    "n_components": 2,
+    "degree": 2,
+    "var_exp": 21.174182706687358,
+    "exec_time_ms": 0.48589997459203005,
+    "cm_line": "TP=0, FP=14, TN=361, FN=10",
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0,
+    "roc_auc": 0.6509333333333334
+  },
+  {
+    "name": "CD 2D (Deg 4)",
+    "n_components": 2,
+    "degree": 4,
+    "var_exp": 21.174182706687358,
+    "exec_time_ms": 0.9828000329434872,
+    "cm_line": "TP=0, FP=17, TN=358, FN=10",
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0,
+    "roc_auc": 0.6208
+  },
+  {
+    "name": "CD 5D (Deg 2)",
+    "n_components": 5,
+    "degree": 2,
+    "var_exp": 43.022408892797316,
+    "exec_time_ms": 0.6769000319764018,
+    "cm_line": "TP=1, FP=16, TN=359, FN=9",
+    "precision": 0.058823529411764705,
+    "recall": 0.1,
+    "f1_score": 0.07407407407407407,
+    "roc_auc": 0.6738666666666666
+  },
+  {
+    "name": "CD 7D (Deg 2)",
+    "n_components": 7,
+    "degree": 2,
+    "var_exp": 51.89950447698386,
+    "exec_time_ms": 0.3709000302478671,
+    "cm_line": "TP=3, FP=17, TN=358, FN=7",
+    "precision": 0.15,
+    "recall": 0.3,
+    "f1_score": 0.2,
+    "roc_auc": 0.6085333333333333
+  },
+  {
+    "name": "CD 10D (Deg 2)",
+    "n_components": 10,
+    "degree": 2,
+    "var_exp": 64.64174705935761,
+    "exec_time_ms": 2.0849000429734588,
+    "cm_line": "TP=5, FP=18, TN=357, FN=5",
+    "precision": 0.21739130434782608,
+    "recall": 0.5,
+    "f1_score": 0.30303030303030304,
+    "roc_auc": 0.8077333333333334
+  }
+]
